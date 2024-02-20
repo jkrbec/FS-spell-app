@@ -1,0 +1,66 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light grey background for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #1A1A1B; /* Deep, dark grey, almost black for elegance and mystery */
+    color: #DAA520; /* Golden text for a magical feel, reminiscent of the Golden Snitch */
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    background-color: #740001; /* Deep red from Gryffindor's color palette */
+    color: #DAA520; /* Golden text to complement the header and add a magical touch */
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4E0000; /* A darker shade of the Gryffindor red for hover effect */
+}
+
+.spell-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.spell-card {
+    background-color: #FFF8DC; /* A parchment-like background for the spell cards */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.spell-name {
+    font-size: 24px;
+    color: #740001; /* Using the Gryffindor red for spell names to tie in with the button color */
+}
+
+.spell-description {
+    font-size: 16px;
+    color: #333; /* Darker text for readability */
+    margin-top: 10px;
+}
